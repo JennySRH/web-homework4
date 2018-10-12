@@ -1,0 +1,39 @@
+
+#calculator-container{
+    text-align: center;
+    margin:0 auto;
+    margin-top:70px;
+    width: 314px;
+    height: 380px;;
+}
+
+#input-container{
+    width:310px;
+    height:310px;
+    border:black solid;
+}
+
+#user-input{
+    margin-top:13px;
+    width: 280px;
+    height:28px;
+    text-align: right;
+    padding-right:6px;
+    margin-bottom: 8px;
+}
+
+
+
+#first-line,#second-line,#third-line,#forth-line,#fifth-line{
+    width:310px;
+    height: 40px;
+    margin-top:8px;
+}
+
+.line-element{
+    margin-left: 9px;
+    width:66px;
+    height: 44px;
+    float: left;
+    background-color: rgb(235,235,235);
+}

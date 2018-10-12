@@ -1,14 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    
+    <div id="calculator-container">
+        <h1>简单计算器</h1>
+        <div id="input-container">
+            <input id="user-input">
+            <div id="first-line">
+                <button class="line-element" id="seven">7</button>
+                <button class="line-element" id="eight">8</button>
+                <button class="line-element" id="nine">9</button>
+                <button class="line-element" id="division">/</button>
+            </div>
+            <div id="second-line">
+                <button class="line-element" id="four">4</button>
+                <button class="line-element" id="five">5</button>
+                <button class="line-element" id="six">6</button>
+                <button class="line-element" id="multiply">*</button>
+            </div>
+            <div id="third-line">
+                <button class="line-element" id="one">1</button>
+                <button class="line-element" id="two">2</button>
+                <button class="line-element" id="three">3</button>
+                <button class="line-element" id="sub">-</button>
+            </div>
+            <div id="forth-line">
+                <button class="line-element" id="zero">0</button>
+                <button class="line-element" id="dot">.</button>
+                <button class="line-element" id="clean">←</button>
+                <button class="line-element" id="plus">+</button>
+            </div>
+            <div id="fifth-line">
+                <button class="line-element" id="leftbracket">(</button>
+                <button class="line-element" id="rightbracket">)</button>
+                <button class="line-element" id="clear">CE</button>
+                <button class="line-element" id="equal">=</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
